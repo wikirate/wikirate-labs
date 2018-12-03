@@ -2,8 +2,11 @@ source 'http://rubygems.org'
 
 
 gem 'decko'
+gem 'mysql2', '< 0.5'
+gem "dalli"
 
 group :development do
+  gem "thin"
   gem "capistrano"
   gem "capistrano-bundler"
   gem 'capistrano-git-with-submodules', '~> 2.0'
@@ -12,11 +15,10 @@ group :development do
   gem "capistrano-rvm"
 end
 
-gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 
 # WEBSERVER
 # To run a simple deck at localhost:3000, you can use thin (recommended), unicorn, or (Rails' default) Webrick
-gem 'thin'
+
 # gem 'unicorn'
 
 # To set up a production webserver, see https://decko.org/wagn_in_production
