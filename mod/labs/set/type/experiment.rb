@@ -1,5 +1,5 @@
 format :html do
   view :box_middle do
-    field_nest :screenshot, type: :core, size: :medium
+    field_nest :screenshot, view: :core, size: :medium
   end
 end
