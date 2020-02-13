@@ -1,6 +1,5 @@
 format :html do
   view :box_middle do
-    "boot"
-    field_nest :image
+    field_nest :screenshot, type: :core, size: :medium
   end
 end
