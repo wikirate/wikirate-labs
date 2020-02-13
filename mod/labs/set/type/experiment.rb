@@ -4,6 +4,6 @@ format :html do
   end
 
   view :box_bottom do
-    field_nest :author, view: :labeled, items: { view: :link }
+    field_nest :author, view: :core, items: { view: :link }
   end
 end
