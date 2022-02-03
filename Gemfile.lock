@@ -425,6 +425,7 @@ DEPENDENCIES
   decko
   decko-cap!
   mysql2
+  thor (> 1)
 
 BUNDLED WITH
    2.2.28
