@@ -21,3 +21,5 @@ config/deploy**
 config/*.yml
 
 public
+
+.idea

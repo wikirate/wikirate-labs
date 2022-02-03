@@ -1,0 +1,6 @@
+[submodule "decko-cap"]
+	path = vendor/decko-cap
+	url = https://github.com/decko-commons/decko-cap.git
+[submodule "vendor/decko-cap"]
+	path = vendor/decko-cap
+	url = https://github.com/decko-commons/decko-cap.git
