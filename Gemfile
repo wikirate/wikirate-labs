@@ -1,9 +1,15 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
-gem 'decko'
-gem 'mysql2'
+gem "decko"
+gem "mysql2"
 
-gem "thor", "> 1"
+group :development do
+  gem "decko-cap", path: "./vendor/decko-cap"
+  gem "puma"
+end
 
-gem "dalli", group: :production
-gem "decko-cap", path: "./vendor/decko-cap", group: :development
+group :production do
+  gem "dalli"
+  gem "fog-aws"
+end
+
