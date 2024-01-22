@@ -9,7 +9,6 @@ PATH
       capistrano-git-with-submodules (~> 2.0)
       capistrano-maintenance
       capistrano-passenger
-      capistrano-rvm
       ed25519
 
 GEM
@@ -99,9 +98,6 @@ GEM
       capistrano (>= 3.0)
     capistrano-passenger (0.2.1)
       capistrano (~> 3.0)
-    capistrano-rvm (0.1.2)
-      capistrano (~> 3.0)
-      sshkit (~> 1.2)
     card (1.106.0)
       actionmailbox (~> 6.1.4)
       actionmailer (~> 6.1.4)
