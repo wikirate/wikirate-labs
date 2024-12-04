@@ -20,7 +20,6 @@ end
 gem "mysql2", "> 0.4"
 
 group :development do
-  gem "decko-cap", path: "./vendor/decko-cap"
   gem "puma"
 end
 
