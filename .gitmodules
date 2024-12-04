@@ -9,4 +9,4 @@
 	url = git@github.com:decko-commons/decko.git
 [submodule "vendor/card-mods"]
 	path = vendor/card-mods
-	url = git@github.com:ethn/card-mods.git
+	url = git@github.com:decko-commmons/card-mods.git
